@@ -1,3 +1,7 @@
+function Red_LED_lights_on () {
+	
+}
+let strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB)
 basic.forever(function () {
     basic.showIcon(IconNames.SmallSquare)
     basic.showIcon(IconNames.Square)
