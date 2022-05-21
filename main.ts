@@ -1,3 +1,9 @@
+function Green_LED_lights_on () {
+	
+}
+function Yellow_LED_lights_on () {
+	
+}
 function Red_LED_lights_on () {
 	
 }
