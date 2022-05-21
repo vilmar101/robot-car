@@ -5,9 +5,10 @@ function Yellow_LED_lights_on () {
 	
 }
 function Red_LED_lights_on () {
-	
+    strip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
 }
-let strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB)
+let strip: neopixel.Strip = null
+strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB)
 basic.forever(function () {
     basic.showIcon(IconNames.SmallSquare)
     basic.showIcon(IconNames.Square)
